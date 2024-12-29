@@ -4,7 +4,12 @@ let pressed = (value) => {
   ans = ans + value;
   show.innerHTML = ans;
 };
+let squra=()=>{
+ let show=document.querySelector("#display");
+ ans=ans*ans;
+ show.innerHTML=ans;
 
+};
 let equall = () => {
   let show = document.querySelector("#display");
   show.innerHTML = eval(ans);
